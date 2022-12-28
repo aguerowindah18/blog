@@ -1,55 +1,99 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
-
-# Build settings
 theme: minima
+
+title: Agu's Blog
+author: Aguero Windah
+email: blog@chadbaldwin.net
+url: https://chadbaldwin.net
+
+timezone: Etc/UTC # GitHub uses UTC. This is to force dev environment to match
+future: false # GitHub Pages will publish future posts if this isn't set to false
+
+description: >
+  My first blog. Probably no one else will ever read it, but oh well.
+
+# Minima variables
+twitter_username: chad_baldwin
+github_username: chadbaldwin
+linkedin_username: chadbaldwin
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#googleplus_username: +jekyll
+rss: rss
+
+show_excerpts: false
+
+# Used by simple links page
+social-links:
+  Resume: https://chadbaldwin.net/resume
+  LinkedIn: https://linkedin.com/in/chadbaldwin
+  StackOverflow: https://stackoverflow.com/users/3474677
+  HackerRank: https://hackerrank.com/chadwin
+  GitHub: https://github.com/chadbaldwin
+  Twitter: https://twitter.com/chad_baldwin
+  Reddit: https://reddit.com/user/chadbaldwin
+  Credly: https://credly.com/users/chadbaldwin
+  PluralSight: https://app.pluralsight.com/profile/chadbaldwin
+  Website: https://chadbaldwin.net
+
+# plugin: jekyll-seo-tag
+twitter:
+  username: chad_baldwin
+  card: summary_large_image
+social:
+  name: Chad Baldwin
+  links:
+    - https://twitter.com/chad_baldwin
+    - https://linkedin.com/in/chadbaldwin
+    - https://github.com/chadbaldwin
+
+# plugin: jekyll-titles-from-headings
+titles_from_headings:
+  strip_title: true
+
+collections:
+  personal: # collection for personal blog posts
+    output: true
+
+header_pages:
+  - resume.html
+  - archive.html
+  - books.md
+  - bookmarks.md
+
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+google_analytics:
+  - UA-185058308-1 # Old GA Universal Analytics property
+  - G-RY6FRPMXHZ # New GA4 property
+
+gravatar_hash: 2136e716a089f4a3794f4007328c7bfb
+code_block_max_height: 500px
+
+home_post_limit: 5
+
+# The github repo that is to be used for looking up comments
+comments_repo: chadbaldwin/chadbaldwin.github.io
+
+defaults:
+  - scope:
+      path: ''
+    values:
+      image: https://s.gravatar.com/avatar/2136e716a089f4a3794f4007328c7bfb?s=800 # Apply default site image
+  - scope:
+      path: ''
+      type: posts
+    values:
+      tags:
+        - Other # Add a default tag to all posts
+
+# Disable highlighting to use highlightJS instead
+# highlighter: none # Not supported by GitHub Pages
+kramdown:
+  syntax_highlighter_opts:
+    disable: true

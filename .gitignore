@@ -1,9 +1,5 @@
 _site
-.sass-cache
-.jekyll-cache
+Gemfile
+Gemfile.lock
 .jekyll-metadata
-vendor
-public
-.env
-.env.build
-.vercel
+CNAME
