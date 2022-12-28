@@ -1,4 +1,4 @@
-## Jekyll Example
+# Jekyll Example
 
 This directory is a brief example of a [Jekyll](https://jekyllrb.com/) site that can be deployed to Vercel with zero configuration.
 
