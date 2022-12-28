@@ -3,7 +3,7 @@ theme: minima
 title: Agu's Blog
 author: Aguero Windah
 email: agudev01@gmail.com
-url: https://aguero.vercel.app
+url: https://agu-blog.vercel.app
 
 timezone: Etc/UTC # GitHub uses UTC. This is to force dev environment to match
 future: false # GitHub Pages will publish future posts if this isn't set to false
