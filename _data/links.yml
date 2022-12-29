@@ -1,29 +1,12 @@
 
 - name: Youtube
-  url: https://github.com/@windah12
+  url: https://youtube.com/@windah12
   label: Aguero
 
 - name: Instagram
-  url: https://github.com/agrwindah
+  url: https://instagram.com/agrwindah
   label: Aguero
 
 - name: GitHub
   url: https://github.com/aguerowindah18
   label: Aguero
-
-
-# - name: LinkedIn
-#   url: https://linkedin.com/in/chadbaldwin
-#   label: chadbaldwin
-
-# - name: Credly/Acclaim
-#   url: https://credly.com/users/chadbaldwin
-#   label: chadbaldwin
-
-# - name: StackOverflow
-#   url: https://stackoverflow.com/users/3474677
-#   label: chad-baldwin
-
-# - name: PluralSight
-#   url: https://app.pluralsight.com/profile/chadbaldwin
-#   label: chadbaldwin
