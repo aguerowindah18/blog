@@ -2,7 +2,7 @@
 layout: post
 title: Starting a new personal blog!
 description: Sepertinya membuat blog seru
-date: 2022-12-29 12:41:00 -0000
+date: 2022-12-29 12:41:00 +0000
 tag: Blog
 ---
 
