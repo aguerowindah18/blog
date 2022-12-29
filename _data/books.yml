@@ -11,7 +11,15 @@
   author: Stephen Hawking
   summary: \"A Brief History Of Time is Stephen Hawking’s way of explaining the most complex concepts and ideas of physics, such as space, time, black holes, planets, stars and gravity to the average Joe, so that even you and I can better understand how our planet was created, where it came from, and where it’s going.\"
   link: https://amzn.to/3s9xoWm
+  startDate: 2021-06-13
   isCurrent: true
+
+- title: Hidup dan Mati
+  author: Agus Nur Cahyo
+  summary: \"Buku ini mengulas hal-hal tersebut secara jelas dan runtut sehingga menjadikan kita memahami keadaan yang menjadikan hal-hal tersebut terjadi. Dalam buku ini diuraikan kisah masa remaja Hitler, awal masuknya ia ke dalam dunia politik, hingga perjalanan kariernya bersama Nazi yang tentu beserta kisahnya dalam Perang Dunia II. Dan, mungkin Anda akan terkejut mengenai Hitler yang ternyata ada di Indonesia, serta kebenaran peristiwa Holocaust, yang kesemuanya diuraikan dalam buku ini.\"
+  link: https://www.tokopedia.com/divapressgroup/buku-hidup-dan-mati-adolf-hitler-laksana
+  rating: ⭐⭐⭐⭐ - Bagus untuk hiburan.
+  completeDate: 2022-12-29
 
 - title: Operations Anti-Patterns, DevOps Solutions
   author: Jeffery D. Smith
