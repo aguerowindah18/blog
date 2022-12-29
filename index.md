@@ -5,10 +5,12 @@
 layout: home
 ---
 
-Just your average everyday nerd, developer, motorcycle enthusiast, dog dad.
+### Hello
 
-The business side of this blog is mostly about SQL Server, PowerShell, programming tips and tools.
+Pelajar SMA biasa, yang suka ngoding dengan belajar otodidak.
 
-I also like to post about my hobbies...motorcycles, rubiks cubes, dogs, nerdy home projects, archery and whatever else I seem to be obsessing over that month.
+Blog ini bertujuan menyalurkan beberapa ide atau cerita yang ada.
+
+Memposting apapun yang ada di pikiran beberapa waktu terakhir.
 
 Hope you enjoy what you're reading here!
