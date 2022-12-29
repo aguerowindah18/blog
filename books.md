@@ -36,7 +36,7 @@ In order to try and enforce a habit of reading daily, I'm making this a public p
 {% for book in currentBooks %}
 
 - [*{{ book.title }}*{% if book.author %} by {{ book.author }}{% endif %}]({{ book.link }}){:target="\_blank"}
-  {% if book.summary %} \- {{ book.summary }}{% endif %}
+  {% if book.summary %} \* {{ book.summary }}{% endif %}
   {% endfor %}
 
 <!--
