@@ -6,11 +6,10 @@
 #   isCurrent: bool - indicating currently reading
 #   completeDate: date of completion
 
-- title: 'A Brief History of Time'
+- title: A Brief History of Time
   author: Stephen Hawking
   summary: \"A Brief History Of Time is Stephen Hawking’s way of explaining the most complex concepts and ideas of physics, such as space, time, black holes, planets, stars and gravity to the average Joe, so that even you and I can better understand how our planet was created, where it came from, and where it’s going.\"
   link: https://amzn.to/3s9xoWm
-  rating: ⭐⭐⭐⭐⭐
   isCurrent: true
 
 - title: The Unicorn Project
