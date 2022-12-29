@@ -15,14 +15,14 @@ contact:
   #phone: (123) 456-7890
   email: resume@chadbaldwin.net
 sections:
-  experience:   true
-  education:    true
-  projects:     true
-  skills:       true
-  recognition:  true
-  associations: false
-  interests:    true
   links:        true
+  projects:     true
+  education:    true
+  interests:    true
+  experience:   false
+  skills:       false
+  recognition:  false
+  associations: false
   social_links: false
 social:
   Website:    http://aguero.vercel.app
