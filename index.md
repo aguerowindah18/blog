@@ -5,10 +5,9 @@
 layout: home
 ---
 
-### Hello
+## **Hello, World.**
 
 Pelajar SMA biasa, yang suka ngoding dengan belajar otodidak.
-
 Blog ini bertujuan menyalurkan beberapa ide atau cerita yang ada.
 
 Memposting apapun yang ada di pikiran beberapa waktu terakhir.
