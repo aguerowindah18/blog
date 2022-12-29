@@ -72,19 +72,19 @@ google_analytics:
   - UA-185058308-1 # Old GA Universal Analytics property
   - G-RY6FRPMXHZ # New GA4 property
 
-gravatar_hash: 2136e716a089f4a3794f4007328c7bfb
+gravatar_hash: 6e98a1f0c3ae667782d19eef32758f52
 code_block_max_height: 500px
 
 home_post_limit: 5
 
 # The github repo that is to be used for looking up comments
-comments_repo: chadbaldwin/chadbaldwin.github.io
+comments_repo: aguerowindah18/blog.git
 
 defaults:
   - scope:
       path: ''
     values:
-      image: https://s.gravatar.com/avatar/2136e716a089f4a3794f4007328c7bfb?s=800 # Apply default site image
+      image: https://s.gravatar.com/avatar/6e98a1f0c3ae667782d19eef32758f52?s=800 # Apply default site image
   - scope:
       path: ''
       type: posts
