@@ -1,0 +1,32 @@
+theme: default
+header:
+  name: Aguero Windah
+  suffix: 
+  display_contact_info: true
+  current_title: Student
+  intro: >
+    Cuma Suka Coding
+contact:
+  #address: 123 Main St, Test, CA 91234
+  #phone: (123) 456-7890
+  email: agudev01@gmail.com
+sections:
+  education:    true
+  projects:     true
+  interests:    true
+  links:        true
+  recognition:  false
+  experience:   false
+  skills:       false
+  associations: false
+  social_links: false
+social:
+  Website:    http://aguero.vercel.app
+  GitHub:     https://github.com/aguerowindah18
+  Twitter:    https://twitter.com/chad_baldwin
+  Dribbble:  https://dribbble.com/chadbaldwin
+  Instagram: https://instagram.com/agrwindah
+  Youtube:  https://youtube.com/windah10
+  #FaceBook:  https://facebook.com/iamchadbaldwin
+  # LinkedIn:   https://linkedin.com/in/chadbaldwin
+  #Medium:    https://medium.com/@chad-baldwin
