@@ -27,7 +27,7 @@ description: Book reviews and recommendations, reading goal tracker
 </style>
 
 Untuk mencoba dan memulai kebiasaan membaca setiap hari, saya membuat track ini. Dengan target 1 Tahun untuk melihat seberapa banyak saya membaca.
-Mirip dengan ["Every Day Calendar" by Simone Giertz](https://www.kickstarter.com/projects/simonegiertz/the-every-day-calendar){:target="_blank"}..., karena mahal, jadi buat saja di web ini.
+Mirip dengan ["Every Day Calendar" by Simone Giertz](https://www.kickstarter.com/projects/simonegiertz/the-every-day-calendar){:target="_blank"}... karena mahal, jadi buat saja di web ini.
 
 ## Current book:
 {% assign currentBooks = site.data.books | where: "isCurrent", true %}
