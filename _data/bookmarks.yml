@@ -116,6 +116,10 @@ networking:
     link: https://mxtoolbox.com/SuperTool.aspx
 
 reference:
+  - name: Markdown Docs
+    description: Docs for learning markdown syntax
+    link: https://daringfireball.net/projects/markdown/
+
   - name: Javascript Equality Table
     description: Reference chart showing result of equality operations
     link: https://dorey.github.io/JavaScript-Equality-Table/unified/
