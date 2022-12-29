@@ -12,4 +12,6 @@ Blog ini bertujuan menyalurkan beberapa ide atau cerita yang ada.
 
 Memposting apapun yang ada di pikiran beberapa waktu terakhir.
 
+Disclaimer: Website ini berasal dari template Jekyll, dan di copy dari website ["chadbaldwin.net](https://chadbaldwin.net){:target="\_blank"}, menggunakan github.
+
 Hope you enjoy what you're reading here!

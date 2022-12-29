@@ -4,9 +4,9 @@ title: Bookmarks
 description: Online tools dan resources yang berguna
 ---
 
-Beberaoa online tools, database, referensi, cheatsheets, dll. Yang berguna untuk bekerja setiap harinya.
+Beberapa online tools, database, referensi, cheatsheets, dll. Yang berguna untuk bekerja setiap harinya.
 
-Jika ada sarana untuk ditambahkan atau saran lainnya, silahkan komen di bawah.
+Jika ada saran untuk ditambahkan atau saran lainnya, silahkan komen di bawah.
 
 {% for category in site.data.bookmarks %}
 {% assign items = category[1] | sort_natural: "name" %}
