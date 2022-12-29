@@ -3,3 +3,11 @@ Gemfile
 Gemfile.lock
 .jekyll-metadata
 CNAME
+.resume.html
+.education.yml
+.interests.yml
+.links.yml
+.links.yml
+.projects.yml
+.resume.yml
+.skills.yml
